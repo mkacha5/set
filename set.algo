@@ -1,0 +1,15 @@
+ALGORITHM tab
+
+VAR
+sum=0;
+i=0;
+j=0;
+BEGIN
+    for (i=0,i<set1.length)
+    while set1[i]<> set2[j] and j=set2.length
+    
+    j++
+    End while=$
+   if(j=set2.length)
+   sum=sum+set1{i}
+END
