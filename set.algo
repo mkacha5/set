@@ -13,3 +13,32 @@ BEGIN
    if(j=set2.length)
    sum=sum+set1{i}
 END
+
+
+PROCEDURE Dot_product(v1,v2,n)
+VAR
+ i,ps:INTEGER   
+BEGIN
+ps=0;
+ For i:=0 To n-1 Do
+      ps := ps+v1[i]*v2[i];
+   ps := ps;
+   END for
+END
+
+ALGORITHM ortho
+VAR
+v1,v2:array
+n,i:INTEGER
+BEGIN
+    for i from 0 to v1.length Do
+    if 
+    Dot_product(v1,v2,n)
+    ps=0 then 
+    write (v1,v2 sont orthogonaux)
+    else write( v1,v2 ne sont pas orthogonaux)
+    END if
+End for
+
+END
+
